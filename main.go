@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"log"
 	"os"
-
 	"github.com/gofiber/fiber/v2"
 	"github.com/joho/godotenv"
 )
@@ -16,7 +15,6 @@ type Todo struct {
 }
 
 func main() {
-	fmt.Println("Hello, World")
 	app := fiber.New()
 
 	err := godotenv.Load(".env")
